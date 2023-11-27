@@ -1,6 +1,6 @@
 buildscript {
-    ext.kotlinVersion = '1.6.21'
-    ext.navigationVersion = '2.4.1'
+    ext.kotlinVersion = '1.8.21'
+    ext.navigationVersion = '2.5.0'
     repositories {
         google()
         mavenCentral()
@@ -25,9 +25,9 @@ allprojects {
 // Define versions in a single place
 ext {
     // Sdk and tools
-    minSdkVersion = 21
-    targetSdkVersion = 31
-    compileSdkVersion = 31
+    minSdkVersion = 22
+    targetSdkVersion = 33
+    compileSdkVersion = 33
 
     // App dependencies
     androidXVersion = '1.0.0'
@@ -44,7 +44,7 @@ ext {
     junitVersion = '4.13.2'
     materialVersion = '1.4.0'
     recyclerViewVersion = '1.2.1'
-    robolectricVersion = '4.5.1'
+    robolectricVersion = '4.11.1'
     roomVersion = '2.4.3'
     rulesVersion = '1.0.1'
     swipeRefreshLayoutVersion = '1.1.0'

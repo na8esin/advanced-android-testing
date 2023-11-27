@@ -32,6 +32,10 @@ android {
 
     }
     namespace 'com.example.android.architecture.blueprints.todoapp'
+
+    kotlin {
+        jvmToolchain 17
+    }
 }
 
 dependencies {
@@ -54,6 +58,7 @@ dependencies {
     kapt "androidx.lifecycle:lifecycle-compiler:$archLifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$archLifecycleVersion"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$archLifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1"
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
 
