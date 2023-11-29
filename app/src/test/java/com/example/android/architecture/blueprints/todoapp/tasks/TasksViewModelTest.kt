@@ -29,7 +29,6 @@ class TasksViewModelTest {
         tasksViewModel = TasksViewModel(ApplicationProvider.getApplicationContext())
     }
 
-
     @Test
     fun addNewTask_setsNewTaskEvent() {
 
