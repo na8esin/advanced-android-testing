@@ -15,7 +15,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.annotation.Config
 
-@Config(sdk = [30]) // Remove when Robolectric supports SDK 31
 @RunWith(AndroidJUnit4::class)
 class TasksViewModelTest {
     // Subject under test

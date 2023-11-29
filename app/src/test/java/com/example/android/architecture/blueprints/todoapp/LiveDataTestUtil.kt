@@ -3,7 +3,6 @@ package com.example.android.architecture.blueprints.todoapp
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-import org.bouncycastle.asn1.x500.style.RFC4519Style.o
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import java.util.concurrent.TimeoutException
